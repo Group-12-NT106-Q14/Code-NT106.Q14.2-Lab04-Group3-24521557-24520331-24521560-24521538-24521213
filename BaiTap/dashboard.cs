@@ -44,5 +44,13 @@ namespace WinFormsApp1
             bt4.ShowDialog();
             this.Show();
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Login bt7 = new Login();
+            bt7.ShowDialog();
+            this.Show();
+        }
     }
 }

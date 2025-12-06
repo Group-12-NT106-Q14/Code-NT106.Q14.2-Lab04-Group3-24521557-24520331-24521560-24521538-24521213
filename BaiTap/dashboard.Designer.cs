@@ -34,11 +34,12 @@
             button4 = new Button();
             button5 = new Button();
             button6 = new Button();
+            button7 = new Button();
             SuspendLayout();
             // 
             // button1
             // 
-            button1.Location = new Point(91, 121);
+            button1.Location = new Point(53, 44);
             button1.Margin = new Padding(3, 4, 3, 4);
             button1.Name = "button1";
             button1.Size = new Size(160, 131);
@@ -49,7 +50,7 @@
             // 
             // button2
             // 
-            button2.Location = new Point(383, 121);
+            button2.Location = new Point(321, 44);
             button2.Margin = new Padding(3, 4, 3, 4);
             button2.Name = "button2";
             button2.Size = new Size(160, 131);
@@ -60,7 +61,7 @@
             // 
             // button3
             // 
-            button3.Location = new Point(672, 121);
+            button3.Location = new Point(582, 44);
             button3.Margin = new Padding(3, 4, 3, 4);
             button3.Name = "button3";
             button3.Size = new Size(160, 131);
@@ -71,7 +72,7 @@
             // 
             // button4
             // 
-            button4.Location = new Point(91, 373);
+            button4.Location = new Point(53, 227);
             button4.Margin = new Padding(3, 4, 3, 4);
             button4.Name = "button4";
             button4.Size = new Size(160, 131);
@@ -82,7 +83,7 @@
             // 
             // button5
             // 
-            button5.Location = new Point(383, 373);
+            button5.Location = new Point(321, 227);
             button5.Margin = new Padding(3, 4, 3, 4);
             button5.Name = "button5";
             button5.Size = new Size(160, 131);
@@ -92,7 +93,7 @@
             // 
             // button6
             // 
-            button6.Location = new Point(672, 373);
+            button6.Location = new Point(582, 227);
             button6.Margin = new Padding(3, 4, 3, 4);
             button6.Name = "button6";
             button6.Size = new Size(160, 131);
@@ -100,11 +101,23 @@
             button6.Text = "Bài 6";
             button6.UseVisualStyleBackColor = true;
             // 
+            // button7
+            // 
+            button7.Location = new Point(53, 388);
+            button7.Margin = new Padding(3, 4, 3, 4);
+            button7.Name = "button7";
+            button7.Size = new Size(160, 131);
+            button7.TabIndex = 6;
+            button7.Text = "Bài 7";
+            button7.UseVisualStyleBackColor = true;
+            button7.Click += button7_Click;
+            // 
             // dashboard
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(914, 600);
+            Controls.Add(button7);
             Controls.Add(button6);
             Controls.Add(button5);
             Controls.Add(button4);
@@ -126,5 +139,6 @@
         private Button button4;
         private Button button5;
         private Button button6;
+        private Button button7;
     }
 }
