@@ -52,5 +52,21 @@ namespace WinFormsApp1
             bt7.ShowDialog();
             this.Show();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Bai5 bt5 = new Bai5();
+            bt5.ShowDialog();
+            this.Show();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Bai6 bt6 = new Bai6();
+            bt6.ShowDialog();
+            this.Show();
+        }
     }
 }
